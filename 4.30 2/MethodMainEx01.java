@@ -29,5 +29,7 @@ public class MethodMainEx01 {
         Method m = new Method();
         m.doFunc1();
         m.doFunc2(10, 20);
+        int result = m.doFunc3(10, 20);
+        System.out.println(result);
     }
 }
